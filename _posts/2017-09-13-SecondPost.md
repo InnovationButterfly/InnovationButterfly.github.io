@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  이블로그의 두번째 글 테스트
+title: 이블로그의 두번째 글 테스트
 ---
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
