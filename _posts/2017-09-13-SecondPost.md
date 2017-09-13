@@ -8,21 +8,9 @@ Next you can update your site name, avatar and other options using the _config.y
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
----
-layout: post
-comments: true
-title:  사운드클라우드 테스트
----
-
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
-
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7kL1SruvPQw" frameborder="0" allowfullscreen></iframe>
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/337848531&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-
-http://dcimg8.dcinside.co.kr/viewimage.php?id=3db2c332f7dd3bad69bedab913c33d&no=29bcc427bd8077a16fb3dab004c86b6f24b7e12241bb1d94d586f8c338a92081999c1fc5287af26f1e25a1339423db2aca826f5e2fa14053b4d8f8a013dbe566c792ee8e2f00f5cf1705050af4000893bbec86
 
 The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
 
