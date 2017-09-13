@@ -1,5 +1,5 @@
 ---
-layout: post2
+layout: post
 title:  이블로그의 두번째 글 테스트
 ---
 
