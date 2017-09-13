@@ -12,7 +12,7 @@ Next you can update your site name, avatar and other options using the _config.y
 
 <div class="embed-video">
 <div class="videoWrapper">
-<embed width="560" height="315" src="https://www.youtube.com/embed/7kL1SruvPQw" frameborder="0" allowfullscreen></embed>
+<embed width="560" height="315" src="https://www.youtube.com/embed/7kL1SruvPQw" frameborder="0" ></embed>
 </div>
 </div>
 
