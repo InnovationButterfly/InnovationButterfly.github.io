@@ -22,15 +22,15 @@ footer-links:
   facebook: "https://www.facebook.com/profile.php?id=100009760486752"
   flickr:
   github: barryclark/jekyll-now
-  instagram: "https://www.instagram.com/newrun94/"
-  linkedin: "https://www.linkedin.com/in/jonghyun-yeo-13b055125/"
+  instagram: "newrun94/"
+  linkedin: "jonghyun-yeo-13b055125/"
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: jekyllrb
-  stackoverflow: "https://stackexchange.com/users/7867245/jong-hyun-yeo"  # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  stackoverflow: "users/5945712/jong-hyun-yeo"  # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
-  soundcloud: "https://soundcloud.com/rhythmcoder"
+  soundcloud: "rhythmcoder"
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
