@@ -11,7 +11,6 @@ Next you can update your site name, avatar and other options using the _config.y
 The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
 
 {% if page.comments %}
-<body>
 <div id="disqus_thread"></div>
 <script>
 
@@ -33,5 +32,4 @@ s.setAttribute('data-timestamp', +new Date());
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <script id="dsq-count-scr" src="//innovbutterfly.disqus.com/count.js" async></script>
-</body>
 {% endif %}
