@@ -1,17 +1,37 @@
+
 ---
 layout: default
 ---
-
-<article class="post">
-  <h1>{{ page.title }}</h1>
-
-  <div class="entry">
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+    <p class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        {{ page.date | date: date_format }}
+      </time>
+      {% if page.author %} • 
+      <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">{{ page.author }}
+      </span>
+      {% else %}
+      <span itemprop="author" itemscope itemtype="http://schema.org/Person" hidden>
+        <span itemprop="name">{{ site.author }}</span>
+      </span>
+      {% endif %}
+      {% if page.tags.size > 0 %} • 
+      {% capture post_tags %}{% for tag in page.tags %}{{ tag }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+      <span itemprop="keywords" hidden>{{ post_tags }}</span>
+      {% for tag in page.tags %}
+      <span>#{{ tag }}</span>
+      {% endfor %}
+      {% endif %}
+    </p>
+  </header>
+  <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
-
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
-
-  {% include disqus.html %}
 </article>
+{% if site.disqus.shortname %}
+{% include disqus-comments.html %}
+{% endif %}
