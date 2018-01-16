@@ -1,0 +1,21 @@
+ ---
+ layout: post
+-comments: true
++date: 2018-01-16
+ title:  개발에 유용한 사이트들 모음
++tags: programming
+ ---
+ 
+
+자바스크립트 닌자 비급 (존 레식, 베어 바이볼트 지음)
+Secret of the javascript Ninja
+www.manning.com/resig
+
+파이썬 코딩의 기술
+Effective python
+https://github.com/gilbutITbook/006764
+
+프로그래밍 대회에서 배우는 알고리즘 문제 해결 전략
+구종만 지음, 인사이트
+http://book.algospot.com/src.html
+
